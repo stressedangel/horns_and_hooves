@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <td height="50px" bgcolor="#C1C1C1" colspan="2""><b>
+        <a href="index.html"> Главная</a> | 
+        <a href="about.html">О компании</a> | 
+        <a href="employee.html"> Наши сотрудники</a> | 
+        <a href="galary/1.html"> Галерея</a></b> |
+        <a href="order.html"> Заказ </a> | 
+    </td>
+    <form>
+        <fieldset>
+         <legend>Регистрация на сайте</legend>
+        <h4> Для последующей корректной работе в нашем сервисе, пожалуйста, вводите правдивые данные!</h4>
+          <input type="radio" id="cash payment" value="cash payment" name="cash payment"><label for="cash payment" class="light">Наличный расчет</label><br>
+          <input type="radio" id="cashless payment" value="cashless payment" name="cashless payment"><label for="cashless payment" class="light">Безналичный расчет</label> 
+        <p>Фамилия: <input name="fam" required></p>
+         <p>Имя: <input name="name" autofocus required ></p>
+         <p>Отчество: <input name="surn" required></p>
+         <p>E-mail: <input type="email" required></p>
+         <p>Телефон: <input type="number" required></p>
+         <p>Пароль: <input type="password" name="pass" required></p>
+         <p>Подтвердите пароль:<input type="password" name="pass" required></p>
+         <label for="courses">Федеральный округ</label>
+         <select id="courses" name="student_courses">
+             <option value="Central_federal_district">Центральный федеральный округ</option>
+             <option value="North-Western_Federal_district">Северо-Западный федеральный округ</option>
+             <option value="Southern_federal_district">Южный федеральный округ</option>
+             <option value="North_Caucasus_Federal district">Северо-Кавказский федеральный округ</option>
+             <option value="Volga_federal_district">Приволжский федеральный округ</option>
+             <option value="Urals_federal_district">Уральский федеральный округ</option>
+             <option value="Siberian_Federal_district</option>
+             <option value="Far_Eastern_Federal_district">Дальневосточный федеральный о́круг</option>
+         </select>
+         <p>Заказываю</p>
+         <pЗаказываю><label><input type="checkbox" name="horns">рога в количестве <input type="number" name="hornsCount" value="1"> штук</label></pЗаказываю>
+         <p><label><input type="checkbox" name="hooves">копыта в количестве <input type="number" name="hoovesCount" value="1"> штук</label></p>
+     </label>
+     <label>Пожелания<br><textarea name="wishes" cols="30" rows="4"></textarea></label>
+         <p><input type="submit" value="Подтвердить заказ"></p>
+        </fieldset>
+       </form>
+</body>
+</html>
